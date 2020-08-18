@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Sensate Sensor Chart</title>
+	<script src="../sensatechart.min.js"></script>
+	<script type="text/javascript">
+		initChart('canvas', "D820E301-97E2-432B-84DC", "feuchte", true, 30, 70);
+		initChart('canvas2', "AC2D078D-34A1-40C5-A012", "temp", true, 20, 50);
+	</script>
+</head>
+
+<body>
+	<div align="center">
+		<div style="width:60%;">
+			<canvas id="canvas"/>
+		</div>
+		<br/><br/>
+		<div style="width:60%;">
+			<canvas id="canvas2"/>
+		</div>
+		<br/><br/>
+	</div>
+</body>
+
+</html>
+
